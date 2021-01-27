@@ -1,13 +1,13 @@
 import React from "react"
 import './App.css';
-import Content from "./components/Content";
-import Header from "./components/Header";
+import Todos from "./components/Todos";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Content api="data2" />
+      {/* <Header /> */}
+      {/* <Content api="data2" /> */}
+      <Todos />
       
     </div>
   )
